@@ -51,15 +51,13 @@ module.exports = {
   ],
 
   plugins: [
-    '~components/global',
     '~plugins/i18n',
     '~plugins/vform',
-    '~plugins/axios',
+    '~plugins/axios'
     // '~plugins/nuxt-client-init',
   ],
 
   modules: [
-    '@nuxtjs/router',
     '~/modules/spa'
   ],
 
