@@ -19,7 +19,7 @@ module.exports = {
 
   env: {
     apiUrl: process.env.APP_URL || 'http://api.laravel-nuxt.test',
-    appName: process.env.APP_NAME || 'Laravel-Nuxt',
+    appName: process.env.APP_NAME || 'UConn Equipment Swap',
     appLocale: process.env.APP_LOCALE || 'en',
     githubAuth: !!process.env.GITHUB_CLIENT_ID
   },
@@ -30,7 +30,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'Nuxt.js project' }
+      { hid: 'description', name: 'description', content: 'Equipment Swap' }
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
@@ -40,7 +40,7 @@ module.exports = {
     ]
   },
 
-  loading: { color: '#007bff' },
+  loading: { color: '#6CCC98' },
 
   router: {
     middleware: ['locale', 'check-auth']
