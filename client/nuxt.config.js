@@ -55,7 +55,6 @@ module.exports = {
     '~plugins/i18n',
     '~plugins/vform',
     '~plugins/axios',
-    '~plugins/fontawesome'
     // '~plugins/nuxt-client-init',
   ],
 
